@@ -26,17 +26,6 @@ print(boy)
 boykilo = veriler[['boy','kilo']]
 print(boykilo)
 
-x = 10
-
-class insan:
-    boy = 180
-    def kosmak(self,b):
-        return b + 10
-
-ali = insan()
-print(ali.boy)
-print(ali.kosmak(90))
-
 #eksik veriler
 #sci - kit learn
 
