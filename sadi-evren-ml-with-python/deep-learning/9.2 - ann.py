@@ -66,11 +66,11 @@ from keras.layers import Dense
 
 classifier = Sequential()
 
-classifier.add(Dense(6, init = 'uniform', activation = 'relu' , input_dim = 11))
+classifier.add(Dense(6, activation = 'relu' , input_dim = 11))
 
-classifier.add(Dense(6, init = 'uniform', activation = 'relu'))
+classifier.add(Dense(6, activation = 'relu'))
 
-classifier.add(Dense(1, init = 'uniform', activation = 'sigmoid'))
+classifier.add(Dense(1, activation = 'sigmoid'))
 
 classifier.compile(optimizer = 'adam', loss =  'binary_crossentropy' , metrics = ['accuracy'] )
 
